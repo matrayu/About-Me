@@ -1,5 +1,27 @@
 body {
     background-color: azure;
-    border: 1em solid aquamarine;
+    border: 1em solid rgb(21, 41, 34);
     padding: 30px;
+}
+
+nav>ul {
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+a {
+    padding-right: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 30em;
+    display: inline-block;
+    justify-content: left;
 }
